@@ -1,0 +1,23 @@
+body {
+  background-color: bisque;
+}
+
+#styled-checkbox {
+  display: block;
+  margin-top: 30px;
+  appearance: none;
+  height: 1.5em;
+  width: 1.5em;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+#styled-checkbox:checked {
+  background-image: url('../assets/checkmark.svg');
+  appearance: initial;
+}
+
+[virtual-focus="true"], #styled-checkbox:focus-visible {
+  outline: 1px solid #0000FF;
+  outline-offset: 2px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style/index.css" rel="stylesheet" />
+    <title>Heyflow Challenge</title>
+  </head>
+  <body>
+    <h1>Heyflow</h1>
+
+    <div id="main">
+      <form>
+        <input id="default-checkbox" type="checkbox" name="toggle" onchange="toggleCheckboxes()" onfocusin="toggleFocusOnCustomCheckbox()" onfocusout="toggleFocusOnCustomCheckbox()" />
+        <input id="styled-checkbox" type="checkbox" name="toggle" onchange="toggleCheckboxes()" />
+      </form>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
